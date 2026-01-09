@@ -78,3 +78,13 @@ $ python3 bluetooth-numbers.py --service-uuids 0x1809
 name: Health Thermometer
 id: org.bluetooth.service.health_thermometer
 </pre>
+
+### Lookup Core version
+As used in LL_VERSION_IND
+<pre>
+$ bluetooth-numbers --core-version 6
+name: Bluetooth® Core Specification 4.0 (Withdrawn)
+
+ bluetooth-numbers --core-version 0xb
+name: Bluetooth® Core Specification 5.2
+</pre>
