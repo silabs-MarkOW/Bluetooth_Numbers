@@ -86,3 +86,5 @@ for key in db :
                     if skey != rkey :
                         print('%s: %s'%(skey,record.get(skey)))
                 found = True
+if not found :
+    print('No match for %s in %s'%(arg,filename))
