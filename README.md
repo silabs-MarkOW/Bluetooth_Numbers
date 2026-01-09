@@ -85,6 +85,6 @@ As used in LL_VERSION_IND
 $ bluetooth-numbers --core-version 6
 name: Bluetooth® Core Specification 4.0 (Withdrawn)
 
- bluetooth-numbers --core-version 0xb
+$ bluetooth-numbers --core-version 0xb
 name: Bluetooth® Core Specification 5.2
 </pre>
